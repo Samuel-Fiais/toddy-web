@@ -1,0 +1,46 @@
+{
+  "name": "toddy-web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "prettier-format": "prettier --write 'src/**/*.{js,jsx,ts,tsx,css,json}' --config ./.prettierrc"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "@fortawesome/free-brands-svg-icons": "^6.4.0",
+    "@fortawesome/free-regular-svg-icons": "^6.4.0",
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@reduxjs/toolkit": "^1.9.5",
+    "@tailwindcss/forms": "^0.5.4",
+    "@types/node": "20.4.5",
+    "@types/react": "18.2.16",
+    "@types/react-dom": "18.2.7",
+    "autoprefixer": "10.4.14",
+    "axios": "^1.4.0",
+    "babel-plugin-macros": "^3.1.0",
+    "next": "13.4.12",
+    "next-redux-wrapper": "^8.1.0",
+    "postcss": "8.4.27",
+    "prettier": "^3.0.0",
+    "prettier-plugin-tailwindcss": "^0.4.1",
+    "react": "18.2.0",
+    "react-device-detect": "^2.2.3",
+    "react-dom": "18.2.0",
+    "react-query": "^3.39.3",
+    "redux-logger": "^3.0.6",
+    "tailwind-variants": "^0.1.13",
+    "tailwindcss": "3.3.3",
+    "typescript": "5.1.6"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.9",
+    "@types/redux-logger": "^3.0.9",
+    "react-redux": "^8.1.2",
+    "redux": "^4.2.1"
+  }
+}
